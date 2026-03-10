@@ -43617,6 +43617,19 @@
  @since 22.0]]>
       </doc>
     </method>
+    <method name="serializedSize" return="long"
+      abstract="false" native="false" synchronized="false"
+      static="false" final="false" visibility="public"
+      deprecated="not deprecated">
+      <doc>
+      <![CDATA[Returns the number of bytes required to serialize this bloom filter using the {@link
+ #writeTo(OutputStream)} method. This method can be useful if you need to know the serialization
+ size before writing to pre-allocated space (e.g., for memory-mapped files or fixed-size
+ records).
+
+ @since NEXT]]>
+      </doc>
+    </method>
     <method name="isCompatible" return="boolean"
       abstract="false" native="false" synchronized="false"
       static="false" final="false" visibility="public"
