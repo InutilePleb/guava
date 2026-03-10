@@ -67936,11 +67936,6 @@
  ClosingFuture#transformAsync(AsyncClosingFunction, Executor)} apply here.]]>
       </doc>
     </method>
-    <field name="inputs" type="com.google.common.collect.ImmutableList&lt;com.google.common.util.concurrent.ClosingFuture&lt;?&gt;&gt;"
-      transient="false" volatile="false"
-      static="false" final="true" visibility="protected"
-      deprecated="not deprecated">
-    </field>
     <doc>
     <![CDATA[A builder of a {@link ClosingFuture} step that is derived from more than one input step.
 
