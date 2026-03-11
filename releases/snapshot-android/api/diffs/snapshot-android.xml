@@ -67641,11 +67641,6 @@
       static="false" final="false" visibility="public"
       deprecated="not deprecated">
     </method>
-    <method name="finalize"
-      abstract="false" native="false" synchronized="false"
-      static="false" final="false" visibility="protected"
-      deprecated="not deprecated">
-    </method>
     <doc>
     <![CDATA[A step in a pipeline of an asynchronous computation. When the last step in the computation is
  complete, some objects captured during the computation are closed.
