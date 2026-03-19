@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite name="com.google.common.reflect.InvokableTest" tests="62" time="0.519" failures="0" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Microsoft"/>
+    <property name="localRepository" value="C:\Users\micha\.m2\repository"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property value="HotSpot 64-Bit Tiered Compilers" name="sun.management.compiler"/>
+    <property value="Windows 11" name="os.name"/>
+    <property value="CONFIG" name="nondexLogging"/>
+    <property value="windows" name="sun.desktop"/>
+    <property value="Oracle Corporation" name="java.vm.specification.vendor"/>
+    <property value="11.0.30+7-LTS" name="java.runtime.version"/>
+    <property value="micha" name="user.name"/>
+    <property value=".*" name="nondexFilter"/>
+    <property value="hi" name="user.language"/>
+    <property name="sun.boot.library.path" value="C:\Users\micha\Downloads\microsoft-jdk-11.0.30-windows-x64\jdk-11.0.30+7\bin"/>
+    <property value="32-bit" name="java.vm.compressedOopsMode"/>
+    <property name="java.version" value="11.0.30"/>
+    <property value="" name="user.timezone"/>
+    <property value="64" name="sun.arch.data.model"/>
+    <property name="nondexStart" value="0"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="nondexJarDir" value="C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="55.0"/>
+    <property value="IN" name="user.country"/>
+    <property value="C:\Users\micha\Downloads\microsoft-jdk-11.0.30-windows-x64\jdk-11.0.30+7" name="java.home"/>
+    <property value="mixed mode" name="java.vm.info"/>
+    <property name="os.version" value="10.0"/>
+    <property value="C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex\surefire\surefirebooter10712321011677116690.jar" name="surefire.real.class.path"/>
+    <property value=";" name="path.separator"/>
+    <property value="11.0.30+7-LTS" name="java.vm.version"/>
+    <property name="user.variant" value=""/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property value="UnicodeLittle" name="sun.io.unicode.encoding"/>
+    <property value="3" name="java.specification.maintenance.version"/>
+    <property value="sun.awt.windows.WToolkit" name="awt.toolkit"/>
+    <property value="" name="user.script"/>
+    <property name="user.home" value="C:\Users\micha"/>
+    <property name="java.version.date" value="2026-01-20"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="test" value="InvokableTest"/>
+    <property name="nondexMode" value="FULL"/>
+    <property value="C:\Users\micha\Downloads\microsoft-jdk-11.0.30-windows-x64\jdk-11.0.30+7\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\micha\Downloads\microsoft-jdk-11.0.30-windows-x64\jdk-11.0.30+7\bin;C:\Users\micha\Downloads\...\bin;C:\Users\micha\Downloads\...\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\HP\HP One Agent;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Users\micha\tools\apache-maven-3.9.9\bin;C:\Users\micha\tools\jdk-11.0.24+8\bin;C:\Users\micha\AppData\Local\Android\Sdk\platform-tools;C:\Users\micha\AppData\Local\GitHubDesktop\bin;C:\Users\micha\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\micha\AppData\Local\Programs\Antigravity\bin;C:\Users\micha\.dotnet\tools;C:\Users\micha\AppData\Local\PowerToys\DSCModules\;." name="java.library.path"/>
+    <property name="java.vendor.url" value="https://www.microsoft.com"/>
+    <property name="java.vm.vendor" value="Microsoft"/>
+    <property name="nondexDir" value="C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property value="C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex\surefire\surefirebooter10712321011677116690.jar C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex\surefire\surefire1648690461735251210tmp C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex\surefire\surefire1725964319232512710tmp" name="sun.java.command"/>
+    <property value="C:\Users\micha\Documents\GitHub\guava\guava-tests\target\test-classes;C:\Users\micha\Documents\GitHub\guava\guava-tests\target\classes;C:\Users\micha\.m2\repository\com\google\guava\guava-testlib\HEAD-jre-SNAPSHOT\guava-testlib-HEAD-jre-SNAPSHOT.jar;C:\Users\micha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\micha\.m2\repository\com\google\guava\guava\HEAD-jre-SNAPSHOT\guava-HEAD-jre-SNAPSHOT.jar;C:\Users\micha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\micha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\micha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\micha\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\micha\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\micha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\micha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\micha\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\micha\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\micha\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\micha\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\micha\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\micha\.m2\repository\com\google\truth\truth\1.1.2\truth-1.1.2.jar;C:\Users\micha\.m2\repository\com\google\auto\value\auto-value-annotations\1.7.4\auto-value-annotations-1.7.4.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm\9.0\asm-9.0.jar;C:\Users\micha\.m2\repository\com\google\truth\extensions\truth-java8-extension\1.1.2\truth-java8-extension-1.1.2.jar;C:\Users\micha\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\micha\.m2\repository\com\google\caliper\caliper\1.0-beta-2\caliper-1.0-beta-2.jar;C:\Users\micha\.m2\repository\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar;C:\Users\micha\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\micha\.m2\repository\com\sun\jersey\jersey-client\1.11\jersey-client-1.11.jar;C:\Users\micha\.m2\repository\com\sun\jersey\jersey-core\1.11\jersey-core-1.11.jar;C:\Users\micha\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\micha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\micha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\micha\.m2\repository\com\google\inject\extensions\guice-multibindings\3.0\guice-multibindings-3.0.jar;C:\Users\micha\.m2\repository\com\google\inject\extensions\guice-assistedinject\3.0\guice-assistedinject-3.0.jar;C:\Users\micha\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\micha\.m2\repository\com\google\code\java-allocation-instrumenter\java-allocation-instrumenter\3.0\java-allocation-instrumenter-3.0.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-commons\5.0.3\asm-commons-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-xml\5.0.3\asm-xml-5.0.3.jar;" name="java.class.path"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property value="C:\Users\micha\Documents\GitHub\guava\guava-tests\target\test-classes;C:\Users\micha\Documents\GitHub\guava\guava-tests\target\classes;C:\Users\micha\.m2\repository\com\google\guava\guava-testlib\HEAD-jre-SNAPSHOT\guava-testlib-HEAD-jre-SNAPSHOT.jar;C:\Users\micha\.m2\repository\com\google\j2objc\j2objc-annotations\1.3\j2objc-annotations-1.3.jar;C:\Users\micha\.m2\repository\com\google\guava\guava\HEAD-jre-SNAPSHOT\guava-HEAD-jre-SNAPSHOT.jar;C:\Users\micha\.m2\repository\com\google\guava\failureaccess\1.0.1\failureaccess-1.0.1.jar;C:\Users\micha\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\micha\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar;C:\Users\micha\.m2\repository\org\checkerframework\checker-qual\3.12.0\checker-qual-3.12.0.jar;C:\Users\micha\.m2\repository\com\google\errorprone\error_prone_annotations\2.7.1\error_prone_annotations-2.7.1.jar;C:\Users\micha\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\micha\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\micha\.m2\repository\org\easymock\easymock\4.3\easymock-4.3.jar;C:\Users\micha\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;C:\Users\micha\.m2\repository\org\mockito\mockito-core\3.9.0\mockito-core-3.9.0.jar;C:\Users\micha\.m2\repository\net\bytebuddy\byte-buddy\1.10.20\byte-buddy-1.10.20.jar;C:\Users\micha\.m2\repository\net\bytebuddy\byte-buddy-agent\1.10.20\byte-buddy-agent-1.10.20.jar;C:\Users\micha\.m2\repository\com\google\truth\truth\1.1.2\truth-1.1.2.jar;C:\Users\micha\.m2\repository\com\google\auto\value\auto-value-annotations\1.7.4\auto-value-annotations-1.7.4.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm\9.0\asm-9.0.jar;C:\Users\micha\.m2\repository\com\google\truth\extensions\truth-java8-extension\1.1.2\truth-java8-extension-1.1.2.jar;C:\Users\micha\.m2\repository\com\google\jimfs\jimfs\1.2\jimfs-1.2.jar;C:\Users\micha\.m2\repository\com\google\caliper\caliper\1.0-beta-2\caliper-1.0-beta-2.jar;C:\Users\micha\.m2\repository\com\google\code\gson\gson\2.2.2\gson-2.2.2.jar;C:\Users\micha\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\micha\.m2\repository\com\sun\jersey\jersey-client\1.11\jersey-client-1.11.jar;C:\Users\micha\.m2\repository\com\sun\jersey\jersey-core\1.11\jersey-core-1.11.jar;C:\Users\micha\.m2\repository\com\google\inject\guice\3.0\guice-3.0.jar;C:\Users\micha\.m2\repository\javax\inject\javax.inject\1\javax.inject-1.jar;C:\Users\micha\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\micha\.m2\repository\com\google\inject\extensions\guice-multibindings\3.0\guice-multibindings-3.0.jar;C:\Users\micha\.m2\repository\com\google\inject\extensions\guice-assistedinject\3.0\guice-assistedinject-3.0.jar;C:\Users\micha\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\micha\.m2\repository\com\google\code\java-allocation-instrumenter\java-allocation-instrumenter\3.0\java-allocation-instrumenter-3.0.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-analysis\5.0.3\asm-analysis-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-commons\5.0.3\asm-commons-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-tree\5.0.3\asm-tree-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-util\5.0.3\asm-util-5.0.3.jar;C:\Users\micha\.m2\repository\org\ow2\asm\asm-xml\5.0.3\asm-xml-5.0.3.jar;" name="surefire.test.class.path"/>
+    <property name="java.io.tmpdir" value="C:\Users\micha\AppData\Local\Temp\"/>
+    <property value="false" name="nondexPrintstack"/>
+    <property name="java.vendor.url.bug" value="https://github.com/microsoft/openjdk/issues"/>
+    <property value="amd64" name="os.arch"/>
+    <property value="sun.awt.Win32GraphicsEnvironment" name="java.awt.graphicsenv"/>
+    <property value="C:\Users\micha\Documents\GitHub\guava\guava-tests" name="user.dir"/>
+    <property name="line.separator" value="
+"/>
+    <property name="nondexRuns" value="10"/>
+    <property value="OpenJDK 64-Bit Server VM" name="java.vm.name"/>
+    <property name="basedir" value="C:\Users\micha\Documents\GitHub\guava\guava-tests"/>
+    <property name="nondexEnd" value="9223372036854775807"/>
+    <property name="failIfNoTests" value="false"/>
+    <property value="933178" name="nondexSeed"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property value="11" name="java.specification.version"/>
+    <property name="nondexExecid" value="QxqJJN3v7wqbl6JJhm8qYJR6x8iHzK44TpdpqxLFgQ="/>
+    <property value="Microsoft-13096984" name="java.vendor.version"/>
+  </properties>
+  <testcase name="testOverridableMethod" time="0.007" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testAnonymousClassInConstructor" classname="com.google.common.reflect.InvokableTest" time="0.008"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.001" name="testPrivateMethod"/>
+  <testcase name="testMethod_isVarArgs" classname="com.google.common.reflect.InvokableTest" time="0"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testUnannotatedMethod" time="0"/>
+  <testcase name="testConstructor_returning" time="0.01" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testNonFinalMethodInFinalClass_isOverridable" time="0.001" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testInstanceMethod_invalidReturning" time="0.016" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testStaticMethod_isOverridable" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testLocalClassWithSeeminglyHiddenThisInStaticInitializer_BUG"/>
+  <testcase name="testInstanceMethod_returnType" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.001" name="testAnonymousClassDefaultConstructor"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testConstructor_call"/>
+  <testcase name="testConstructor_isVarArgs" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testNulls" classname="com.google.common.reflect.InvokableTest" time="0.406"/>
+  <testcase name="testConstructor_typeParameters" classname="com.google.common.reflect.InvokableTest" time="0.009"/>
+  <testcase time="0.002" name="testNativeMethod" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testConstructor_parameters" classname="com.google.common.reflect.InvokableTest" time="0.003"/>
+  <testcase name="testInstanceMethod_returning" classname="com.google.common.reflect.InvokableTest" time="0.001"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testConstructor_isOverridablel"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testInnerClassWithOneParameterConstructor"/>
+  <testcase name="testLocalClassWithAnnotatedConstructorParameter" classname="com.google.common.reflect.InvokableTest" time="0.001"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testConstructor_invalidReturning"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testInstanceMethod_typeParameters" time="0"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testInnerClassWithGenericConstructorParameter"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.001" name="testStaticAnonymousClassDefaultConstructor"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testPrivateFinalInstanceMethod_isOverridable" time="0"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testGetOwnerType_constructor"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testPrivateInstanceMethod_isOverridable" time="0"/>
+  <testcase name="testStaticMethod_invalidReturning" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase time="0.001" name="testStaticMethod_parameters" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase time="0" name="testStaticFinalMethod_isFinal" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testConstructor_exceptionTypes"/>
+  <testcase time="0" name="testGetOwnerType_method" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testStaticMethod_typeParameters"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testConstructor_returnType" time="0"/>
+  <testcase time="0.001" classname="com.google.common.reflect.InvokableTest" name="testInstanceMethod_returningRawType"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testSynchronizedMethod"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testLocalClassInStaticInitializer" time="0"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testInstanceMethod_exceptionTypes"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testLocalClassInInstanceInitializer"/>
+  <testcase name="testStaticMethod_returnType" classname="com.google.common.reflect.InvokableTest" time="0"/>
+  <testcase time="0.001" classname="com.google.common.reflect.InvokableTest" name="testLocalClassDefaultConstructor"/>
+  <testcase time="0" name="testInnerClassDefaultConstructor" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testAbstractMethod" time="0"/>
+  <testcase time="0" name="testNestedInnerClassDefaultConstructor" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testLocalClassWithOneParameterConstructor" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" name="testConstructor_returnType_hasTypeParameter" time="0.001"/>
+  <testcase name="testStaticMethod_exceptionTypes" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testLocalClassWithGenericConstructorParameter"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0" name="testInnerClassWithAnnotatedConstructorParameter"/>
+  <testcase name="testStaticMethod_returningRawType" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testStaticMethod_call" time="0" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase name="testFinalMethod" classname="com.google.common.reflect.InvokableTest" time="0"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.001" name="testEquals"/>
+  <testcase time="0" classname="com.google.common.reflect.InvokableTest" name="testProtectedMethod"/>
+  <testcase name="testAnonymousClassWithTwoParametersConstructor" classname="com.google.common.reflect.InvokableTest" time="0"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.001" name="testStaticMethod_returning"/>
+  <testcase time="0" name="testInstanceMethod_call" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase time="0" name="testConstructor" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase time="0.001" name="testInstanceMethod_parameters" classname="com.google.common.reflect.InvokableTest"/>
+  <testcase classname="com.google.common.reflect.InvokableTest" time="0.003" name="testApiCompatibleWithAccessibleObject"/>
+</testsuite>

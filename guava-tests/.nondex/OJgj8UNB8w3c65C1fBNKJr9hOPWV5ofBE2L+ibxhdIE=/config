@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=1016066
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex
+nondexJarDir=C:\Users\micha\Documents\GitHub\guava\guava-tests\.nondex
+nondexExecid=OJgj8UNB8w3c65C1fBNKJr9hOPWV5ofBE2L+ibxhdIE=
+nondexLogging=CONFIG
+test=
