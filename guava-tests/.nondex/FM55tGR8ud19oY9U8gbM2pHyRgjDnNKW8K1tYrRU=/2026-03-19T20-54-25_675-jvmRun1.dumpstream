@@ -1,0 +1,21 @@
+# Created at 2026-03-19T20:54:27.653
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Method [java.lang.Class.isInterface()Z] is annotated with @IntrinsicCandidate, but no compiler intrinsic is defined for the method.'.
+
+# Created at 2026-03-19T20:54:27.654
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Method [java.lang.Class.isPrimitive()Z] is annotated with @IntrinsicCandidate, but no compiler intrinsic is defined for the method.'.
+
+# Created at 2026-03-19T20:54:27.654
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Method [java.lang.Class.isArray()Z] is annotated with @IntrinsicCandidate, but no compiler intrinsic is defined for the method.'.
+
+# Created at 2026-03-19T20:54:27.656
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Method [java.lang.Class.getModifiers()I] is annotated with @IntrinsicCandidate, but no compiler intrinsic is defined for the method.'.
+
+# Created at 2026-03-19T20:54:27.656
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream '[0.015s][error][class] Name signers should be in the SymbolTable since its class is loaded'.
+
+# Created at 2026-03-19T20:54:27.657
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Error occurred during initialization of VM'.
+
+# Created at 2026-03-19T20:54:27.663
+Corrupted channel by directly writing to native stream in forked JVM 1. Stream 'Invalid layout of well-known class: java.lang.Class'.
+

@@ -362,10 +362,13 @@ public class InvokableTest extends TestCase {
 
   public void testInstanceMethod_exceptionTypes() throws Exception {
     Invokable<?, ?> delegate = Prepender.method("prepend", Iterable.class);
+
+    // We wrap the result in an ImmutableSet to make the test order-independent
     assertEquals(
-        ImmutableList.of(
-            TypeToken.of(IllegalArgumentException.class), TypeToken.of(NullPointerException.class)),
-        delegate.getExceptionTypes());
+            ImmutableSet.of(
+                    TypeToken.of(IllegalArgumentException.class),
+                    TypeToken.of(NullPointerException.class)),
+            ImmutableSet.copyOf(delegate.getExceptionTypes()));
   }
 
   public void testInstanceMethod_typeParameters() throws Exception {
